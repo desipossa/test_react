@@ -1,0 +1,24 @@
+.MainVisual {
+    background: #f9f9f9;
+
+    .itm {
+        &.on {
+            color: tomato;
+        }
+    }
+
+    .dots {
+        &>li {
+            button {
+                color: #fff;
+                background: tomato;
+            }
+
+            &.on {
+                button {
+                    background: #333;
+                }
+            }
+        }
+    }
+}
